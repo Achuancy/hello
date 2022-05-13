@@ -1,0 +1,39 @@
+<html>
+<head>
+	<h2>Add in HTML</h2>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+	<script type="text/javascript">
+		function after()
+		{
+			
+  var txt1 = "<b>I </b>";           
+  var txt2 = $("<i></i>").text("love ");
+  var txt3 = document.createElement("b");   
+  txt3.innerHTML = "jQuery!";
+  $("img").after(t<!DOCTYPE html>
+xt1, txt2, txt3);    
+		}
+		function before()
+		{
+			
+   var txt1="<b>i</b>";
+   var txt2="<i>love</i>";
+   var txt3="<b>pizza!!!!!!</b>";
+  $("img").before(txt1,txt2,txt3); 
+		}
+		
+
+	</script>
+</head>
+<body>
+	
+	<img src="i3.jpg" alt="cake" width="100px" height="100px">
+	<button onclick="after()">AFTER</button>
+	<button onclick="before()">BEFORE</button>
+	
+	
+
+
+
+</body>
+</html>
